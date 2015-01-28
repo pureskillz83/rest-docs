@@ -1,0 +1,23 @@
+{
+  "name": "pureskillz83/restdoc",
+  "description": "Produces documentation based on PHPDoc",
+  "license": "GNU GPL v2.0",
+  "keywords": ["pureskillz83", "REST", "Documentation"],
+  "authors": [
+    {
+      "name": "Mal Boston",
+      "email": "mal.boston1983@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "pureskillz83\\restdoc\\": "src"
+    }
+  }
+}
